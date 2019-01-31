@@ -36,24 +36,26 @@
 }
 .projects{
     font-size:25px;
-
+    padding-top:13%;
 }
 header{
     margin-top:0;
     position:relative;
 }
 .headshot{
-  height:180px;
+  width:45%;
+  max-width:300px;
   float:right;
   
 }
 .bio-text{
   font-family: 'Advent Pro', sans-serif;
+  padding-right:15%;
 }
 .project-img{
   width:90%;
   padding-top:5px;
-  padding-bottom:15px;
+  padding-bottom:5px;
   margin-left:auto;
   margin-right:auto;
   display:block;
@@ -80,4 +82,9 @@ li{
 }
 a {
   text-decoration: none;
+}
+.project-text{
+  margin-left:5%;
+  margin-right:5%;
+  text-indent:40px;
 }
