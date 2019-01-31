@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.navigation{
+    background-color:grey;
+    text-align: right;
+    padding:5px;
+    position:relative;
+    font-family:sans-serif;
+}
+
+.greeting{
+    padding-top:10px;
+    margin-top:0;
+    font-family: 'vibur', cursive;
+    font-size: 75px;
+    margin-left:6%; 
+    position:absolute;
+}
+.headline{
+    padding-top:100px;
+    margin-left:8%; 
+    margin-right:5%;
+    position:relative;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight:bold;
+}
+.bio{
+    padding-top:25px;
+    margin-top:20px;
+    padding-left:11%;
+    padding-right:11%;
+    text-align:center;
+    font-size:18px;
+}
+.projects{
+    font-size:25px;
+
+}
+header{
+    margin-top:0;
+    position:relative;
+}
+.headshot{
+  height:180px;
+  float:right;
+  
+}
+.bio-text{
+  font-family: 'Advent Pro', sans-serif;
+}
+.project-img{
+  width:90%;
+  padding-top:5px;
+  padding-bottom:15px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+.contact{
+  font-size:18px;
+  text-align:right;
+  margin-top:10px;
+  padding:5px;
+  background-color:grey;
+}
+footer{
+  margin-top:10px;
+  text-align:center;
+}
+
+nav ul{ 
+  display:inline-block;
+  list-style: none;  
+}
+li{
+  display:inline-block;
+  padding-right:5px;
+}
+a {
+  text-decoration: none;
+}
