@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+body{
+  margin:0px;
+
 }
 .navigation{
-    background-color:grey;
+    background-color:lightgrey;
     text-align: right;
-    padding:5px;
     position:relative;
     font-family:sans-serif;
 }
@@ -17,25 +20,27 @@
     font-size: 75px;
     margin-left:6%; 
     position:absolute;
+    color:#FFDB58;
 }
 .headline{
     padding-top:100px;
+    max-width:30%;
     margin-left:8%; 
     margin-right:5%;
     position:relative;
-    font-family: 'Advent Pro', sans-serif;
+    font-size:20px;
     font-weight:bold;
+    color:navy;
 }
 .bio{
-    padding-top:25px;
+    padding-top:30px;
     margin-top:20px;
     padding-left:11%;
     padding-right:11%;
-    text-align:center;
-    font-size:18px;
+    text-align:left;
+    font-size:19px;
 }
 .projects{
-    font-size:25px;
     padding-top:13%;
 }
 header{
@@ -44,17 +49,18 @@ header{
 }
 .headshot{
   width:45%;
-  max-width:400px;
+  max-width:300px;
   float:right;
-  
+  border-radius:50%;
+  border: 2px solid black;
+  margin-right:10px;
 }
 .bio-text{
-  font-family: 'Advent Pro', sans-serif;
   padding-right:15%;
+  color:navy;
 }
 .project-img{
   width:90%;
-  padding-top:5px;
   padding-bottom:5px;
   margin-left:auto;
   margin-right:auto;
@@ -63,14 +69,13 @@ header{
 }
 .contact{
   font-size:18px;
-  text-align:right;
   margin-top:10px;
   padding:5px;
-  background-color:grey;
 }
 footer{
   margin-top:10px;
   text-align:center;
+  font-size: 12px;
 }
 
 nav ul{ 
@@ -82,10 +87,29 @@ li{
   padding-right:5px;
 }
 a {
+  font-family: 'Abel', sans-serif;
   text-decoration: none;
+  color:navy;
 }
+nav a:hover{
+  color:#FFDB58;
+}
+
 .project-text{
   margin-left:5%;
   margin-right:5%;
   text-indent:40px;
+}
+.github, .linkedin{
+  height:25px;
+  display:inline-block;
+}
+
+.contact p{
+  display:inline-block;
+}
+.section-title{
+  font-size:22px;
+  padding-left:10px;
+  color: black;
 }
