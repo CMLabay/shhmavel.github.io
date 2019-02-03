@@ -12,7 +12,6 @@ body{
     position:relative;
     font-family:sans-serif;
 }
-
 .greeting{
     padding-top:10px;
     margin-top:0;
@@ -39,6 +38,7 @@ body{
     padding-right:11%;
     text-align:left;
     font-size:19px;
+    max-width:90%;
 }
 .projects{
     padding-top:13%;
@@ -69,7 +69,6 @@ header{
 }
 .contact{
   font-size:18px;
-  margin-top:10px;
   padding:5px;
 }
 footer{
@@ -77,7 +76,6 @@ footer{
   text-align:center;
   font-size: 12px;
 }
-
 nav ul{ 
   display:inline-block;
   list-style: none;  
@@ -86,7 +84,7 @@ li{
   display:inline-block;
   padding-right:5px;
 }
-a {
+a{
   font-family: 'Abel', sans-serif;
   text-decoration: none;
   color:navy;
@@ -94,22 +92,47 @@ a {
 nav a:hover{
   color:#FFDB58;
 }
-
+.proj-link:hover{
+  color:#FFDB58;
+}
+span{
+  font-weight: bold;
+}
 .project-text{
   margin-left:5%;
   margin-right:5%;
   text-indent:40px;
+  font-size: 20px;
+}
+.proj-link{
+  margin-right:10px;
+  margin-left:10%;
+  font-size: 20px;
 }
 .github, .linkedin{
   height:25px;
   display:inline-block;
+  padding-top:5px;
 }
-
-.contact p{
+.contact-text{
   display:inline-block;
+  margin-left:5%;
+  font-size:20px;
 }
 .section-title{
-  font-size:22px;
+  font-size:24px;
   padding-left:10px;
   color: black;
+}
+.contact-title{
+  margin-bottom:-5px;
+}
+
+@media screen and (min-width: 700px){
+   .greeting{
+    font-size:150px;
+  }
+  .headline{
+    padding-top:200px;
+  }
 }
