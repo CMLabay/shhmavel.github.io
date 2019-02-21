@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: 'Abel', sans-serif;
 }
+
 body{
 margin:0px;
 
@@ -12,6 +13,7 @@ margin:0px;
   position:relative;
   font-family:sans-serif;
 }
+
 .greeting{
   padding-top:10px;
   margin-top:0;
@@ -21,6 +23,7 @@ margin:0px;
   position:absolute;
   color:#FFDB58;
 }
+
 .headline{
   padding-top:100px;
   max-width:30%;
@@ -31,6 +34,7 @@ margin:0px;
   font-weight:bold;
   color:navy;
 }
+
 .bio{
   padding-top:30px;
   margin-top:20px;
@@ -40,13 +44,16 @@ margin:0px;
   font-size:19px;
   max-width:90%;
 }
+
 .projects{
   padding-top:13%;
 }
+
 header{
   margin-top:0;
   position:relative;
 }
+
 .headshot{
 width:45%;
 max-width:300px;
@@ -55,49 +62,61 @@ border-radius:50%;
 border: 2px solid black;
 margin-right:10px;
 }
+
 .bio-text{
 padding-right:15%;
 color:navy;
 }
+
 .project-img{
 width:90%;
+padding-top:40px;
 padding-bottom:5px;
 margin-left:auto;
 margin-right:auto;
 display:block;
 max-height:500px;
 }
+
 .contact{
 font-size:18px;
 padding:5px;
 }
+
 footer{
 margin-top:10px;
 text-align:center;
 font-size: 12px;
 }
+
 nav ul{ 
 display:inline-block;
 list-style: none;  
 }
+
 li{
 display:inline-block;
 padding-right:5px;
 }
+
 a{
 font-family: 'Abel', sans-serif;
 text-decoration: none;
 color:navy;
 }
+
 nav a:hover{
 color:#FFDB58;
 }
+
 .proj-link:hover{
 color:#FFDB58;
 }
+
 span{
 font-weight: bold;
 }
+
 .project-text{
 margin-left:5%;
 margin-right:5%;
@@ -105,35 +124,40 @@ text-indent:40px;
 font-size: 20px;
 color:navy;
 }
+
 .proj-link{
 margin-right:10px;
 margin-left:10%;
 font-size: 20px;
 }
+
 .github, .linkedin{
 height:25px;
 display:inline-block;
 padding-top:5px;
 }
+
 .contact-text{
 display:inline-block;
 margin-left:5%;
 font-size:20px;
 }
+
 .section-title{
 font-size:24px;
 padding-left:10px;
 color: black;
 }
+
 .contact-title{
 margin-bottom:-5px;
 }
 
 @media screen and (min-width: 700px){
- .greeting{
-  font-size:150px;
-}
-.headline{
-  padding-top:200px;
-}
+  .greeting{
+    font-size:150px;
+  }
+  .headline{
+    padding-top:200px;
+  }
 }
